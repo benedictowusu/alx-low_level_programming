@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <unistd.h>
-
 /**
- * main - A C program that prints a line
- *   
+ * main - program to print a line
+ *
  * Return: 1(Success)
  */
 int main(void)
