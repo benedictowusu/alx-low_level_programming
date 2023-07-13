@@ -4,7 +4,7 @@
 /**
  * main - A C program that prints a line
  *   
- * Return: 1 (Success)
+ * Return: 1(Success)
  */
 int main(void)
 {
