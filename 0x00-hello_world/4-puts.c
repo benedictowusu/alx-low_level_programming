@@ -1,5 +1,11 @@
 #include<stdio.h>
-int main (){
-	puts("Programming is like a nuilding a multinlingualpuzzle");
-	return 0;
+
+/**
+ * main -Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main (void){
+	puts("\"Programming is like a building a multinlingualpuzzle");
+	return (0);
 }
