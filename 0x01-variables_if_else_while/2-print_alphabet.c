@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	char alpabets_in_lowerCase = 'a';
-	putchar("Printing alphabets in lower case")
+	char alphabets_in_lowerCase = 'a';
+	putchar("Printing alphabets in lower case\n");
 	while( alphabets_in_lowerCase <= 'z')
 	{
 		putchar("%c", alphabets_in_lowerCase);
