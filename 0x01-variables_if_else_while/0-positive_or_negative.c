@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  * main - positive anything better
  *
  * Return: 0(Success)
- * */
+ */
 int main(void)
 {
 	int n;
@@ -15,15 +15,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%i is positive\n", n);
 	}
 	else if (n == 0)
 	{
-		printf("is zero");
+		printf("%i is zero\n", n);
 	}
 	else
 	{
-		printf("is negative");
+		printf("%i is negative\n", n);
 	}
 	return (0);
 }
