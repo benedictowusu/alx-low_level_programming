@@ -17,7 +17,7 @@ int main(void)
 	}
 	for (upp = 'A'; upp <= 'Z'; upp++)
 	{
-		putchar("%c\n",upp);
+		putchar(upp);
 
 	}
 	return (0);
