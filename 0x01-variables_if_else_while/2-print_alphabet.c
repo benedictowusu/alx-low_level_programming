@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-	char alphabets_in_lowerCase = 'a';
-	while (alphabets_in_lowerCase <= 'z')
+	char lowerCase = 'a';
+	while (lowerCase <= 'z')
 	{
-		putchar("%c", alphabets_in_lowerCase);
-		alphabets_in_lowerCase++;
+		putchar("%c\n", lowerCase);
+		lowerCase++;
 	}
 	putchar("\n");
 	return (0);
