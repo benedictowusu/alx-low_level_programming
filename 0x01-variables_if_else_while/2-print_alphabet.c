@@ -12,8 +12,7 @@ int main(void)
 
 	for (lowerCase = 'a'; lowerCase <= 'z'; lowerCase++)
 	{
-		putchar(lowerCase);
-		putchar("\n");
+		putchar("%c\n",lowerCase);
 	}
 	return (0);
 }
