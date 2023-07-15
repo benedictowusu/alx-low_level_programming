@@ -9,9 +9,10 @@ int main(void)
 {
 	char reve = 'z';
 
-	for (reve = 'z'; reve >= 'a'; reve--)
+	while (reve >= 'a')
 	{
 		putchar(reve);
+		reve--;
 	}
 	putchar('\n');
 	return (0);
