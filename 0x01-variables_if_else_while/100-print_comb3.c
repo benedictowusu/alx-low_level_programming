@@ -7,22 +7,20 @@
  */
 int main(void)
 {
-	int firstNumber=48;
-	int secondNumber=49;
+	int firstNumber;
+	int secondNumber;
 
-	while (firstNumber <=56)
+	for (firstNumber = 48; firstNumber <= 56; firstNumber++)
 	{
-		if(secondNumber<=57)
+		for (secondNumber = 49; secondNumber <= 57; secondNumber++)
 		{
 			if (secondNumber > firstNumber)
 			{
 				putchar(firstNumber);
 				putchar(secondNumber);
-				firstNumber++;
-				secondNumber++;
-				if((firstNumber != 56) || (secondNumber != 57))
+				if (firstNumber != 56 || secondNumber != 57)
 				{
-					putchar(',');
+					puchar(',');
 					putchar(' ');
 				}
 			}
