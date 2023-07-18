@@ -5,9 +5,13 @@
  * Return: 0(Success)
  *
  */
-int main(void)
+void printPut()
 {
 	printf("_putchar\n");
+}
+int main(void)
+{
+	printPut();
 
 	return (0);
 }
