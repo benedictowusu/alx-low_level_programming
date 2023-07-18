@@ -6,7 +6,7 @@
  * Return: 0(Success)
  *
  */
-void alphas()
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
@@ -18,7 +18,7 @@ void alphas()
 }
 int main(void)
 {
-	alphas();
+	print_alphabet();
 
 	return (0);
 }
