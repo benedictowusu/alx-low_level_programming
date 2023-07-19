@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * add - adding 2 ints
+ * add - adding 2 integers and return the sum
  * @x: first int
  * @y: 2nd int
- * @z: addition of x n y
+ * Return: sum of x and y
  */
 int add(int x, int y)
 {
