@@ -1,14 +1,12 @@
-#inlcude "main.h"
+#include "main.h"
 /**
- * main - printing lower case
+ * _islower - printing lower case
  *
- * Return: 0(Success)
+ * Return: 1(lowercase), else 0
  *
  */
-int main(void)
+int _islower(int c)
 {
-	int c;
-
 	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
