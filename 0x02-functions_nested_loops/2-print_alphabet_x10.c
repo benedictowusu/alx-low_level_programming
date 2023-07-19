@@ -1,28 +1,22 @@
-#include <stdio.h>
+#include "main.h"
 /**
- * main - printing 10x
- *  
- * Return: 0(Success)
+ * print_alphabet_x10 - printing 10x
  *
  */
 void print_alphabet_x10(void)
 {
 	char alpha = 'a';
+	int print = 0;
 
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
-	   putchar(alpha);
+		_putchar(alpha);
 	}
-	putchar('\n');
-}
-int main(void)
-{
-	int print = 0;
+	_putchar('\n');
 
 	while (print <= 10)
 	{
 		print_alphabet_x10();
 		print++;
 	}
-	return (0);
 }
