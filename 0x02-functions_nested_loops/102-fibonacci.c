@@ -10,11 +10,12 @@ int main(void)
 	int count;
 	unsigned long prev, nex, sum;
 
+
 	count = 0, prev = 0, nex = 1;
 	while (count < 50)
 	{
 		sum = prev + nex;
-		printf("%i", sum);
+		printf("%lu", sum);
 
 		prev = nex;
 		nex = sum;
