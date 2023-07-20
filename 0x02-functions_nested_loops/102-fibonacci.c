@@ -1,19 +1,20 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - printing first fibonacci 
+ * main - printing first fibonacci
  *
  * Return: 0(success)
  */
 int main(void)
 {
-	int count, prev, nex, sum;
+	int count;
+	unsigned long prev, nex, sum;
 
 	count = 0, prev = 0, nex = 1;
 	while (count < 50)
 	{
 		sum = prev + nex;
-		printf ("%i", sum);
+		printf("%i", sum);
 
 		prev = nex;
 		nex = sum;
