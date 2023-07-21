@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_most_numbers - printing numbers from 0 to 9 except 2 n 4
- * @c: character to check
  *
  * return: void
  */
