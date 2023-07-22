@@ -2,7 +2,7 @@
 /**
  * print_diagonal - lines
  * @n: number of times to print
- */
+ **/
 void print_diagonal(int n)
 {
 	if (n <= 0)
