@@ -18,7 +18,7 @@ void puts_half(char *str)
 
 	if ((z % 2) == 1)
 	{
-		x = ((z + 1) / 2);
+		y = ((z + 1) / 2);
 	}
 	for (x = y; str[x] != '\0'; x++)
 	{
