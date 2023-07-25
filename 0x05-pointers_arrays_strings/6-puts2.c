@@ -20,6 +20,9 @@ void puts2(char *str)
 	for (z = 0; z <= x; z++)
 	{
 		if (z % 2 == 0)
+		{
 			_putchar(str[z]);
+		}
 	}
+	_putchar('\n');
 }
