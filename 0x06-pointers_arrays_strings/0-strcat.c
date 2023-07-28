@@ -3,7 +3,7 @@
  * _strcat - a function to concatenate two strings
  * @dest: destination string source string will be appended
  * @src: a pointer to the source string which will be appended
- * Return: ConcatenatedString
+ * Return: Concatenated
  */
 char *_strcat(char *dest, char *src)
 {
