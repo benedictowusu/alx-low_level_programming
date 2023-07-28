@@ -2,6 +2,7 @@
 /**
  * string_toupper - function to change lowercase to upper
  * @ptr: pointer
+ * @str: pointer
  *
  * Return: str
  */
