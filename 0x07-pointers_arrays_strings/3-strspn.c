@@ -12,6 +12,7 @@ unsigned int _strspn(char *s, char *accept)
 	while (*s != '\0' && *s != '\n')
 	{
 		char *p = accept;
+
 		while (*p != '\0')
 		{
 			if (*s == *p)
