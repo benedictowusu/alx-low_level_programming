@@ -11,13 +11,12 @@ char *_strdup(char *str)
 	char *via;
 	unsigned int i, x = 0;
 
-	if (size == -)
+	if (str == NULL)
 	{
 		return (NULL);
 	}
 
 	via = malloc(sizeof(char) * (i + 1));
-
 	if (via == NULL)
 	{
 		return (NULL);
@@ -29,6 +28,3 @@ char *_strdup(char *str)
 	}
 	return (via);
 }
-
-
-
