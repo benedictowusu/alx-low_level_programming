@@ -19,7 +19,7 @@ size_t print_list(const list_t *h)
 		}
 		else
 			printf("[%li] %s\n", read, h->str);
-		h = h-<next;
+		h = h - < next;
 		read++;
 	}
 	return (read);

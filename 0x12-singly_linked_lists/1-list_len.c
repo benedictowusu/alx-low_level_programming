@@ -10,11 +10,11 @@
 size_t list_len(const list_t *h)
 {
 	size_t read = 0;
-	
+
 	while (h != NULL)
 	{
 		read++;
 		h = h->next;
 	}
-	return count;
+	return (read);
 }
